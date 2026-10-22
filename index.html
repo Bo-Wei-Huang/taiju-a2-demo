@@ -7,9 +7,9 @@
     <!-- 給媽媽看的簡報（demo）：封面 → 目錄 → 各章內頁。八個場景的 3D 實驗在 experiment.html -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;500&display=swap" rel="stylesheet" />
-    <script type="module" crossorigin src="./assets/index-0tNROH4X.js"></script>
-    <link rel="modulepreload" crossorigin href="./assets/style-DVgZXjo8.js">
-    <link rel="stylesheet" crossorigin href="./assets/style-DBchOLol.css">
+    <script type="module" crossorigin src="./assets/index-z_C3YqXP.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/style-DAHVkZpn.js">
+    <link rel="stylesheet" crossorigin href="./assets/style-D8f-i331.css">
     <link rel="stylesheet" crossorigin href="./assets/index-BfUN3vRp.css">
   </head>
   <body class="demo">
@@ -23,9 +23,11 @@
 
     <!-- 內頁的版面：上方目錄、左欄文案、下方翻頁（catalog.js） -->
     <div id="catalog">
-      <header><button id="cat-home">← 目錄</button><span id="cat-crumb"></span><span class="cat-brand">太聚向暘</span></header>
+      <header><button id="cat-home">← 返回</button><span id="cat-crumb"></span><button id="cat-reset" hidden>重設視角</button><span class="cat-brand">太聚向暘</span></header>
       <section id="cat-panel"></section>
       <nav id="floor-index"></nav>
+      <p id="cat-hint"></p>
+      <p id="cat-toast"></p>
       <footer>
         <button id="cat-prev"></button>
         <i id="cat-progress"></i>
@@ -44,7 +46,7 @@
           <div class="en fade">CONTENTS</div>
           <div class="acts fade">
             <a class="act" data-page="location"><span class="no">01</span><span class="name">地段</span><span class="sub">在哪裡，生活多方便</span><span class="arrow">→</span><span class="bar"></span></a>
-            <a class="act" data-page="facade"><span class="no">02</span><span class="name">建築</span><span class="sub">從整棟到您的家</span><span class="arrow">→</span><span class="bar"></span></a>
+            <a class="act" data-page="campus"><span class="no">02</span><span class="name">建築</span><span class="sub">從整棟到您的家</span><span class="arrow">→</span><span class="bar"></span></a>
             <a class="act" data-page="quality"><span class="no">03</span><span class="name">品質與信心</span><span class="sub">用料、實績、保障</span><span class="arrow">→</span><span class="bar"></span></a>
           </div>
           <div id="back" class="fade">← 回封面</div>
